@@ -21,6 +21,12 @@
 
 - 完全無線・省電力・Auto Mouseレイヤー・エンコーダー対応が全部揃う
 - QMKは有線前提のため非対応
+- p01のZMK configはZMK CLIまたは選定したCorne Xiao系repoのサンプルconfigを起点にする
+- current ZMKではXIAO nRF52840のboard targetは原則 `xiao_ble//zmk` として確認する
+- 古い記事やrepoに残る `seeeduino_xiao_ble` などのboard名は、そのまま使える前提にしない
+- Corne Xiao系のshield名は作者ごとに違うため、選定した基板repoの `boards/shields/` 定義を正とする
+- 外部shieldはzmk-config内に置くか、ZMK moduleとして取り込む
+- 分割構成ではcentral側がPCへHID出力する。peripheral側はPCと直接ペアリングしない
 
 ## MCU：XIAO nRF52840系
 
