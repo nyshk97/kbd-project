@@ -69,9 +69,13 @@ ZMK、XIAO nRF52840、Choc v1、左右分割、親指キーの基本フローを
 - `wintinue/zmk-corne` は42キー向きの `default_transform` を選択済み
 - `wintinue/zmk-corne` のActionsは2025-12時点で成功実績がある
 
-採用前に確認すること:
+確認済み:
 
-- `wintinue/zmk-corne` の `build.yaml` は旧board名 `seeeduino_xiao_ble` のままなので、current ZMK向けに `xiao_ble//zmk` へ変更してビルド確認する
+- `wintinue/zmk-corne` 由来の設定は、current ZMK向けに `xiao_ble//zmk` へ変更済み
+- GitHub Actions run `28447236060` で `chipper_left` / `chipper_right` のUF2生成に成功
+
+残確認:
+
 - p01ではOLEDとpointing/mouse系設定をいったん無効化できるか確認する
 - `JonMuller/gerbers` のREADMEにある通り、Choc標準18x17mmキーキャップ前提で部品を選ぶ
 

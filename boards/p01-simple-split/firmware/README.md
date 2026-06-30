@@ -9,7 +9,8 @@ p01-simple-split用のZMK config作業場所。
 - 取り込み元commit日付: 2026-05-16
 - `zmk-config/build.yaml` のboard名を `xiao_ble//zmk` に更新済み
 - root workflow `.github/workflows/p01-zmk-build.yml` で `chipper_left` / `chipper_right` のUF2をビルドする
+- GitHub Actions run `28447236060` で左右のUF2生成を確認済み
 
 ## 次にやること
 
-- GitHub Actionsまたは同等の手段で `chipper_left` / `chipper_right` のUF2生成を確認する
+- 実機入手後、生成済みUF2を左右のXIAO nRF52840へ書き込んで起動確認する
