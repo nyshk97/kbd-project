@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: chipper_left
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: chipper_right
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
