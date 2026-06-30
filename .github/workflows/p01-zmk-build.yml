@@ -1,0 +1,16 @@
+name: Build p01 ZMK firmware
+
+on:
+  push:
+    paths:
+      - ".github/workflows/p01-zmk-build.yml"
+      - "boards/p01-simple-split/firmware/zmk-config/**"
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      build_matrix_path: boards/p01-simple-split/firmware/zmk-config/build.yaml
+      config_path: boards/p01-simple-split/firmware/zmk-config/config
+      archive_name: p01-zmk-firmware
