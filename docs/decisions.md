@@ -27,6 +27,10 @@
 - Corne Xiao系のshield名は作者ごとに違うため、選定した基板repoの `boards/shields/` 定義を正とする
 - 外部shieldはzmk-config内に置くか、ZMK moduleとして取り込む
 - 分割構成ではcentral側がPCへHID出力する。peripheral側はPCと直接ペアリングしない
+- p01のハードウェア正本は `JonMuller/gerbers` の `corne-choc-xiao` にする
+- `LeducH/corne-choc-xiao` は同一Gerber/BOM/CPLの整理版として、ガイド・購入リンクの参考に使う
+- p01のファームウェア出発点は `wintinue/zmk-corne` にする
+- `wintinue/zmk-corne` の `chipper_left` / `chipper_right` shield定義を起点にし、`build.yaml` のboard名をcurrent ZMK向けに確認・修正する
 
 ## MCU：XIAO nRF52840系
 

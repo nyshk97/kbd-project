@@ -55,6 +55,26 @@ ZMK、XIAO nRF52840、Choc v1、左右分割、親指キーの基本フローを
 
 部品購入やPCB発注の前に、使うCorne Xiao系設計を1つに固定する。
 
+現時点の方針:
+
+- ハードウェア正本: `JonMuller/gerbers` の `corne-choc-xiao`
+- ハードウェア参考: `LeducH/corne-choc-xiao`
+- ファームウェア出発点: `wintinue/zmk-corne`
+
+理由:
+
+- `JonMuller/gerbers` が `corne-choc-xiao` の元実装として扱いやすい
+- `LeducH/corne-choc-xiao` のGerber/BOM/CPLはJonMuller版と同一で、整理版・ガイド・購入リンクの参考に向く
+- `wintinue/zmk-corne` は `config/boards/shields/chipper/` を持ち、`chipper_left` / `chipper_right` のshield定義を含む
+- `wintinue/zmk-corne` は42キー向きの `default_transform` を選択済み
+- `wintinue/zmk-corne` のActionsは2025-12時点で成功実績がある
+
+採用前に確認すること:
+
+- `wintinue/zmk-corne` の `build.yaml` は旧board名 `seeeduino_xiao_ble` のままなので、current ZMK向けに `xiao_ble//zmk` へ変更してビルド確認する
+- p01ではOLEDとpointing/mouse系設定をいったん無効化できるか確認する
+- `JonMuller/gerbers` のREADMEにある通り、Choc標準18x17mmキーキャップ前提で部品を選ぶ
+
 確認するもの:
 
 - リポジトリURLとcommit

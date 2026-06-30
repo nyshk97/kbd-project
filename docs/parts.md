@@ -6,7 +6,7 @@
 
 | 種別 | 部品 | 用途 | メモ |
 | ---- | ---- | ---- | ---- |
-| PCB | Corne Xiao系基板 | p01 | repo URL、commit、Gerber、BOM、ZMK shield名を固定してから調達 |
+| PCB | JonMuller `corne-choc-xiao` | p01 | ハードウェア正本。Gerber/BOM/CPLを使う |
 | スイッチ | Kailh Choc v1 Red | 全試作共通 | ロープロファイル、リニア |
 | MCU | Seeed Studio XIAO nRF52840 | p01 | 既存Corne Xiao系シールドとの互換性を優先 |
 | トラックボールセンサー | PMW3610 | 後続試作、target | ZMK対応を前提 |
@@ -26,6 +26,10 @@
 
 ## 注意メモ
 
+- LeducH `corne-choc-xiao` はJonMuller版とGerber/BOM/CPLが同一なので、整理版・ガイド・購入リンクとして参照する
+- p01のZMK configはwintinue `zmk-corne` を出発点にし、`chipper_left` / `chipper_right` を使う
+- wintinue `zmk-corne` の `build.yaml` は旧board名 `seeeduino_xiao_ble` のままなので、current ZMK向けに `xiao_ble//zmk` へ変更してビルド確認する
+- Choc標準18x17mmキーキャップ前提。19x19mm系キーキャップは使わない
 - 無印XIAO前提の既存シールドにXIAO nRF52840 Plusを載せても、基本14ピン互換部分しか使えない
 - Plusの追加GPIOを使うには、追加キャステレーションパッドまで配線したPCBが必要
 - `BAT` や `AIN7_BAT` など電源系に見える名前のパッドは、必ず回路図で用途を確認してから配線する
