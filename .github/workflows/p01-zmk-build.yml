@@ -9,8 +9,63 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    with:
-      build_matrix_path: boards/p01-simple-split/firmware/zmk-config/build.yaml
-      config_path: boards/p01-simple-split/firmware/zmk-config/config
-      archive_name: p01-zmk-firmware
+    runs-on: ubuntu-latest
+    container:
+      image: zmkfirmware/zmk-build-arm:stable
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - shield: chipper_left
+            artifact: chipper_left-xiao_ble-zmk.uf2
+          - shield: chipper_right
+            artifact: chipper_right-xiao_ble-zmk.uf2
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Initialize west workspace
+        working-directory: boards/p01-simple-split/firmware/zmk-config
+        run: west init -l config
+
+      - name: Update west modules
+        working-directory: boards/p01-simple-split/firmware/zmk-config
+        run: west update --fetch-opt=--filter=tree:0
+
+      - name: Export Zephyr
+        working-directory: boards/p01-simple-split/firmware/zmk-config
+        run: west zephyr-export
+
+      - name: Build ${{ matrix.shield }}
+        working-directory: boards/p01-simple-split/firmware/zmk-config
+        run: |
+          west build \
+            -s zmk/app \
+            -d "build/${{ matrix.shield }}" \
+            -b "xiao_ble//zmk" \
+            -- \
+            -DZMK_CONFIG="${PWD}/config" \
+            -DSHIELD="${{ matrix.shield }}"
+
+      - name: Collect firmware
+        working-directory: boards/p01-simple-split/firmware/zmk-config
+        run: |
+          mkdir -p artifacts
+          cp "build/${{ matrix.shield }}/zephyr/zmk.uf2" "artifacts/${{ matrix.artifact }}"
+
+      - name: Upload firmware
+        uses: actions/upload-artifact@v7
+        with:
+          name: p01-zmk-firmware-${{ matrix.shield }}
+          path: boards/p01-simple-split/firmware/zmk-config/artifacts/${{ matrix.artifact }}
+
+  merge:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Merge firmware artifacts
+        uses: actions/upload-artifact/merge@v7
+        with:
+          name: p01-zmk-firmware
+          pattern: p01-zmk-firmware-*
+          delete-merged: true
