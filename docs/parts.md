@@ -6,7 +6,7 @@
 
 | 種別 | 部品 | 用途 | メモ |
 | ---- | ---- | ---- | ---- |
-| PCB | JonMuller `corne-choc-xiao` | p01 | ハードウェア正本。Gerber/BOM/CPLは `boards/p01-simple-split/parts.md` で固定 |
+| PCB | JonMuller `corne-choc-xiao` | p01 | ハードウェア正本。JLCPCBへPCB 5枚 + bottom side部分PCBA 5枚を発注済み |
 | スイッチ | Kailh Choc v1 Red | 全試作共通 | ロープロファイル、リニア |
 | MCU | Seeed Studio XIAO nRF52840 | p01 | 既存Corne Xiao系シールドとの互換性を優先 |
 | トラックボールセンサー | PMW3610 | 後続試作、target | ZMK対応を前提 |

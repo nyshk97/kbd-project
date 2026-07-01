@@ -74,11 +74,11 @@ ZMK、XIAO nRF52840、Choc v1、左右分割、親指キーの基本フローを
 - `wintinue/zmk-corne` 由来の設定は、current ZMK向けに `xiao_ble//zmk` へ変更済み
 - GitHub Actions run `28447236060` で `chipper_left` / `chipper_right` のUF2生成に成功
 - JonMuller `corne-choc-xiao` のGerber/BOM/CPLを固定し、発注・購入チェックリストを `parts.md` に作成済み
+- JLCPCBへPCB 5枚 + bottom side部分PCBA 5枚を発注済み
 
 残確認:
 
-- JLCPCB previewでダイオード向きと `J8` 向きを確認する
-- `C2972761` が JKSEMI `1N4148SOD-323` として照合されるか確認する
+- JLCPCBのDFM/PCBAレビューで確認依頼が来た場合は、承認前に内容を確認する
 - `J8` に合うバッテリー/ケーブルと極性を確認する
 - XIAO direct mountと裏面バッテリーパッド配線の手順を確認する
 - 電源スイッチのfootprint寸法を購入前に確認する

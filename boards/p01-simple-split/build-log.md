@@ -12,3 +12,4 @@
 - 2026-07-01: JonMuller `corne-choc-xiao` のGerber/BOM/CPLを固定し、PCB + 部分PCBAを第一候補にした発注・購入チェックリスト `parts.md` を作成。
 - 2026-07-01: レビュー結果を反映。`chipper.dtsi` の `diode-direction` は `col2row` でPCBA想定と一致。`J8` はPico-EZmate 1.2mm系として扱い、XIAOはdirect mount前提で発注前チェックに追加。
 - 2026-07-01: 再レビュー結果を反映。`C2972761` は JKSEMI `1N4148SOD-323` と特定。`SW23` はGerberからthrough-hole SPDT slide switch footprintとして寸法メモを追加。
+- 2026-07-01: JLCPCBへPCB + bottom side部分PCBAで発注。PCB 5枚、PCBA 5枚、green / 1.6mm / HASL with lead、面付け済み、different designs 2。BOM/CPL照合は `C2972761` と `C505023` の2部品だけ、配置previewで `D1`-`D21` と `J8` のbottom配置を確認済み。
