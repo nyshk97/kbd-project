@@ -9,3 +9,6 @@
 - 2026-06-30: p01用ZMK configをGitHub Actionsでビルドするroot workflow `.github/workflows/p01-zmk-build.yml` を追加。
 - 2026-06-30: GitHub Actions初回実行は、ZMKの再利用workflowがネストした `zmk-config` 配置を前提にしておらず `west update` で失敗。p01専用workflowに差し替え、左右のUF2だけをビルドする構成に変更。
 - 2026-06-30: GitHub Actions run `28447236060` が成功。artifact `p01-zmk-firmware` に `chipper_left-xiao_ble-zmk.uf2` と `chipper_right-xiao_ble-zmk.uf2` が出ることを確認。
+- 2026-07-01: JonMuller `corne-choc-xiao` のGerber/BOM/CPLを固定し、PCB + 部分PCBAを第一候補にした発注・購入チェックリスト `parts.md` を作成。
+- 2026-07-01: レビュー結果を反映。`chipper.dtsi` の `diode-direction` は `col2row` でPCBA想定と一致。`J8` はPico-EZmate 1.2mm系として扱い、XIAOはdirect mount前提で発注前チェックに追加。
+- 2026-07-01: 再レビュー結果を反映。`C2972761` は JKSEMI `1N4148SOD-323` と特定。`SW23` はGerberからthrough-hole SPDT slide switch footprintとして寸法メモを追加。

@@ -73,11 +73,15 @@ ZMK、XIAO nRF52840、Choc v1、左右分割、親指キーの基本フローを
 
 - `wintinue/zmk-corne` 由来の設定は、current ZMK向けに `xiao_ble//zmk` へ変更済み
 - GitHub Actions run `28447236060` で `chipper_left` / `chipper_right` のUF2生成に成功
+- JonMuller `corne-choc-xiao` のGerber/BOM/CPLを固定し、発注・購入チェックリストを `parts.md` に作成済み
 
 残確認:
 
-- p01ではOLEDとpointing/mouse系設定をいったん無効化できるか確認する
-- `JonMuller/gerbers` のREADMEにある通り、Choc標準18x17mmキーキャップ前提で部品を選ぶ
+- JLCPCB previewでダイオード向きと `J8` 向きを確認する
+- `C2972761` が JKSEMI `1N4148SOD-323` として照合されるか確認する
+- `J8` に合うバッテリー/ケーブルと極性を確認する
+- XIAO direct mountと裏面バッテリーパッド配線の手順を確認する
+- 電源スイッチのfootprint寸法を購入前に確認する
 
 確認するもの:
 
@@ -104,7 +108,7 @@ ZMK、XIAO nRF52840、Choc v1、左右分割、親指キーの基本フローを
 
 1. Corne Xiao系設計を選定固定する
 2. 基板の入手方法を決める。完成品を買うか、GerberからJLCPCB等へ発注する
-3. BOMを基板側の部品表で更新し、不足部品を購入する
+3. `parts.md` に沿ってBOMと購入先を確認し、不足部品を購入する
 4. 工具を準備する。温度調整付きはんだごて、はんだ、フラックス、テスター、ピンセットを前提にする
 5. ダイオード、ホットスワップソケット、スイッチ、XIAO、電源まわりの順に組み立てる
 6. 各キーと電源まわりの導通をテスターで確認する
