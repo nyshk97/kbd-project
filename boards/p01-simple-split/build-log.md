@@ -17,3 +17,4 @@
 - 2026-07-01: 秋月でSeeed XIAO BLE nRF52840を3個購入。p01は左右で2個使い、残り1個はdirect mount失敗時の予備にする。
 - 2026-07-11: 注文した部品がすべて到着。JLCPCBのPCB + 部分PCBA（`D1`-`D21`、`J8` 実装済み）、Chocソケット、スイッチ、キーキャップ、XIAO。次はXIAO単体の書き込みテストから組み立てに入る。
 - 2026-07-12: XIAO 1個目（serial `B687D5B1468A18A7`）の書き込みテスト成功。RSTダブルタップで `XIAO-SENSE` マウント（UF2 Bootloader 0.6.1 / SoftDevice S140 7.3.0）→ `chipper_left-xiao_ble-zmk.uf2` をコピー → USB上で `Chipper`（VID 0x1d50 / PID 0x615e）のHIDキーボードとして認識。工場出荷ファームは1200bpsタッチ非対応で、ブートローダ移行は物理RSTダブルタップが必要。
+- 2026-07-12: XIAO 2個目の書き込みテスト成功。同じ手順で `chipper_right-xiao_ble-zmk.uf2` を書き込み、USB上で `Chipper Right` として認識。個体に油性ペンでL/Rを記入済み。3個目は予備として未書き込みのまま。
