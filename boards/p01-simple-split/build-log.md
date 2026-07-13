@@ -19,3 +19,4 @@
 - 2026-07-12: XIAO 1個目（serial `B687D5B1468A18A7`）の書き込みテスト成功。RSTダブルタップで `XIAO-SENSE` マウント（UF2 Bootloader 0.6.1 / SoftDevice S140 7.3.0）→ `chipper_left-xiao_ble-zmk.uf2` をコピー → USB上で `Chipper`（VID 0x1d50 / PID 0x615e）のHIDキーボードとして認識。工場出荷ファームは1200bpsタッチ非対応で、ブートローダ移行は物理RSTダブルタップが必要。
 - 2026-07-12: XIAO 2個目の書き込みテスト成功。同じ手順で `chipper_right-xiao_ble-zmk.uf2` を書き込み、USB上で `Chipper Right` として認識。個体に油性ペンでL/Rを記入済み。3個目は予備として未書き込みのまま。
 - 2026-07-13: はんだ付け前の机上split疎通テスト成功。左XIAOをPCへUSB接続（central、`Chipper` として認識）、右XIAOを別ポートで給電し、右XIAOの `0`（P0.02 / Row0）と `6`（P1.11 / Col0）のパッドをピンセットで短絡 → PCに `y` が入力された。右のキースキャン → BLE split → 左central → USB HIDの全経路が動作。ジャンパー/ピンセット短絡はRC(0,6)=`Y` に対応（右はcol-offset 6）。左単体も `0`×`6`（Col5）短絡で RC(0,5)=`T` の入力を確認。左右ともスキャン動作OK、組み立て前のファーム・無線・HID検証はすべて完了。
+- 2026-07-13: テスターとしてHIOKI 3244-60（カードハイテスタ）を購入。PCB検品・ソケットはんだ付け後の導通確認に使う。
