@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>p01 キーテスト</title>
+<style>
+  body { font-family: -apple-system, sans-serif; background: #1e2127; color: #e6e6e6; margin: 24px; }
+  h1 { font-size: 20px; }
+  p { color: #aaa; max-width: 640px; line-height: 1.6; }
+  .half { margin: 24px 0; }
+  .half h2 { font-size: 16px; color: #ccc; }
+  .rows { display: flex; flex-direction: column; gap: 6px; }
+  .row { display: flex; gap: 6px; }
+  .key {
+    width: 64px; height: 48px; border-radius: 8px;
+    background: #2c313a; border: 1px solid #444;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; text-align: center; transition: all .15s;
+  }
+  .key.hit { background: #2e7d32; border-color: #66bb6a; color: #fff; }
+  .key.thumb { margin-top: 10px; }
+  .spacer { width: 64px; visibility: hidden; }
+  .status { font-size: 14px; margin-top: 16px; }
+  .last { color: #888; font-size: 13px; margin-top: 8px; min-height: 1.2em; }
+  .done { color: #66bb6a; font-weight: bold; font-size: 18px; }
+</style>
+</head>
+<body>
+<h1>p01 キー入力テスト</h1>
+<p>
+  この画面をクリックしてから、キーボードのキーを1個ずつ押してください。
+  認識されたキーが緑に光ります。<br>
+  <b>SYM</b>（左親指まん中）は「SYMを押しながら Q」、
+  <b>NUM</b>（右親指まん中）は「NUMを押しながら Y」で判定します。
+  Shift・Ctrl(ESC)・Cmd・Alt は単体でポンと1回押せばOKです。
+</p>
+
+<div class="half">
+  <h2>左手側</h2>
+  <div class="rows" id="left"></div>
+</div>
+
+<div class="half">
+  <h2>右手側（あとで使う）</h2>
+  <div class="rows" id="right"></div>
+</div>
+
+<div class="status">左手側: <span id="leftCount">0</span> / 21　　右手側: <span id="rightCount">0</span> / 21</div>
+<div class="last" id="last"></div>
+<div class="status done" id="doneMsg"></div>
+
+<script>
+// [表示ラベル, 判定ID]
+const LEFT = [
+  [["TAB","Tab"],["Q","KeyQ"],["W","KeyW"],["E","KeyE"],["R","KeyR"],["T","KeyT"]],
+  [["ESC\n(Ctrl)","Escape"],["A","KeyA"],["S","KeyS"],["D","KeyD"],["F","KeyF"],["G","KeyG"]],
+  [["Shift","ShiftLeft"],["Z","KeyZ"],["X","KeyX"],["C","KeyC"],["V","KeyV"],["B","KeyB"]],
+  [null,null,null,[["Cmd","MetaLeft"],["SYM\n(+Q)","__SYM"],["Space","Space"]]]
+];
+const RIGHT = [
+  [["Y","KeyY"],["U","KeyU"],["I","KeyI"],["O","KeyO"],["P","KeyP"],["BS","Backspace"]],
+  [["H","KeyH"],["J","KeyJ"],["K","KeyK"],["L","KeyL"],[";","Semicolon"],["'\n(Ctrl)","Quote"]],
+  [["N","KeyN"],["M","KeyM"],[",","Comma"],[".","Period"],["/","Slash"],["Shift","ShiftRight"]],
+  [[["Enter","Enter"],["NUM\n(+Y)","__NUM"],["Alt","AltLeft"]],null,null,null]
+];
+
+const cells = {};
+function build(containerId, layout, thumbsAtStart) {
+  const container = document.getElementById(containerId);
+  layout.forEach((row, i) => {
+    const div = document.createElement("div");
+    div.className = "row";
+    if (i === 3) {
+      // 親指行: spacer 3個 + キー3個（左）/ キー3個 + spacer（右）
+      const thumbs = row.find(x => x);
+      const spacers = 3;
+      const parts = thumbsAtStart ? [thumbs, spacers] : [spacers, thumbs];
+      const emit = (p) => {
+        if (typeof p === "number") {
+          for (let k = 0; k < p; k++) { const s = document.createElement("div"); s.className = "spacer"; div.appendChild(s); }
+        } else {
+          p.forEach(([label, id]) => div.appendChild(makeKey(label, id, true)));
+        }
+      };
+      emit(parts[0]); emit(parts[1]);
+    } else {
+      row.forEach(([label, id]) => div.appendChild(makeKey(label, id, false)));
+    }
+    container.appendChild(div);
+  });
+}
+function makeKey(label, id, thumb) {
+  const el = document.createElement("div");
+  el.className = "key" + (thumb ? " thumb" : "");
+  el.innerText = label;
+  cells[id] = el;
+  return el;
+}
+build("left", LEFT, false);
+build("right", RIGHT, true);
+
+const hit = new Set();
+function mark(id) {
+  if (!cells[id] || hit.has(id)) return;
+  hit.add(id);
+  cells[id].classList.add("hit");
+  const leftIds = Object.keys(cells).filter(k => LEFT.flat(2).includes(k) || ["__SYM"].includes(k));
+  update();
+}
+function update() {
+  const leftTotal = ["Tab","KeyQ","KeyW","KeyE","KeyR","KeyT","Escape","KeyA","KeyS","KeyD","KeyF","KeyG","ShiftLeft","KeyZ","KeyX","KeyC","KeyV","KeyB","MetaLeft","__SYM","Space"];
+  const rightTotal = ["KeyY","KeyU","KeyI","KeyO","KeyP","Backspace","KeyH","KeyJ","KeyK","KeyL","Semicolon","Quote","KeyN","KeyM","Comma","Period","Slash","ShiftRight","Enter","__NUM","AltLeft"];
+  const l = leftTotal.filter(k => hit.has(k)).length;
+  const r = rightTotal.filter(k => hit.has(k)).length;
+  document.getElementById("leftCount").innerText = l;
+  document.getElementById("rightCount").innerText = r;
+  if (l === 21) document.getElementById("doneMsg").innerText = "✅ 左手側 全キーOK！";
+  if (l === 21 && r === 21) document.getElementById("doneMsg").innerText = "✅ 左右 全キーOK！";
+}
+
+window.addEventListener("keydown", (e) => {
+  e.preventDefault();
+  document.getElementById("last").innerText = "検出: " + e.code + (e.shiftKey ? " (+Shift)" : "");
+  // SYM+Q は「!」= Shift+Digit1 として届く
+  if (e.code === "Digit1" && e.shiftKey) { mark("__SYM"); return; }
+  // NUM+Y は「6」= Digit6 として届く
+  if (e.code === "Digit6" && !e.shiftKey) { mark("__NUM"); return; }
+  mark(e.code);
+});
+</script>
+</body>
+</html>
