@@ -83,7 +83,7 @@
   - ホットスワップ: 解決。生成PCBにKailh Chocソケット（CPG135001S30）×64 + 1N4148W×64のフットプリントあり。はんだ付けは自分で行う
   - 左手PCB: 解決。left/right/panelized（面付け版）の3種のEasyEDA jsonが生成される
   - スタビライザー: フットプリントなしと判明。Choc V2構成では2U/2.25Uキー（左Shift 2.25U・左親指2U・右2U・右Enter 2.25U）がスタビなしになる → **スタビなしのまま行くと決定（2026-07-15）**。ロープロ＋トラベル3mm＋軽量キャップなら実害は小さい見込みで、「スタビなし幅広キーが実用になるか」自体をp02の検証項目にする。ダメなら次イテレーションで幅広キーを1.5U以下に分割（既存マトリクスの空きセルに収まるためピン数制約には抵触しない）
-  - ドングル対応: 未検証のまま。生成物は標準的なzmk-config構造（ZMK v0.3固定＋zmk-driver-paw3222）なのでbuild.yaml編集で対応できる見込み
+  - ドングル対応: 解決。zmk-config-split-us60pctのdongleブランチで、dongle shield（central役・モックkscan）＋right_p shield（右手peripheral化・トラックボールをzmk,input-splitで中継）を追加し、akdk_bt1ドングル/XIAOドングル（ZMK v0.3では board名 `seeeduino_xiao_ble`。`xiao_ble//zmk` は新しいZMK mainの名前でv0.3では無効）とも全ターゲットビルド成功（2026-07-15）。必要になったらこのブランチをmainに取り込むだけ
   - 自動配線の品質: 未検証（EasyEDAインポート時に確認）
 - 旧方針のErgogen成果物（キー配置・1:1印刷アウトライン）とKLE基準は、レイアウト検討の参考資料として残す
 
