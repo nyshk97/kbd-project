@@ -36,19 +36,18 @@ Auto-KDK README（4.8〜4.11）と調査結果に基づく発注手順。2026-07
 - [x] 爪楊枝: 手持ちあり
 - [ ] ビニールテープ: 近所のCan Doで購入予定（バッテリー固定用。README推奨の「不燃性のビニールテープ」＝普通の電気絶縁ビニールテープでOK）
 
-## B. JLCPCB（PCB発注、README 4.8〜4.9）
+## B. JLCPCB（PCB発注、README 4.8〜4.9）— ✅ 発注完了 2026-07-16
 
-- [ ] EasyEDA（Std版）にアカウント作成・ログイン
-- [ ] Auto-KDKのzip（`generated/`の元zip。再生成でも可）をEasyEDAで開く → 3種の基板（left/right/panelized）が読み込まれる
-- [ ] 各基板でDRC実行 → **DRC Errors 0** を確認（自動配線の品質確認はここ。エラーが出たらEasyEDA上で修正 or Auto-KDKで配置変更）
-- [ ] `Tool -> TearDrop` でティアドロップ付与（デフォルト設定でOK）→ 保存
-- [ ] JLCPCBに別タブでログインしてから `Fabrication -> One-click order PCB/SMT`
-- [ ] **panelized（面付け）版で発注**（安いことが多い）。パラメータはデフォルト、**Different Design = 2** に変更
-- [ ] PCB Assembly有効化 → **Bottom side** を選択（枚数はデフォルト5、最小2。価格がほぼ変わらないので5でもよい）
-- [ ] BOM/CPLロード画面の「U1が見つからない」警告は無視して次へ
-- [ ] 未選択部品の表示が出たら「配置しない」を選択（実装するのはダイオードのみ。Chocソケットは対象外）
-- [ ] 配置確認画面で**基板の裏面**にダイオードが配置されていることを確認
-- [ ] 商品説明は「キーボード」を選択 → カート保存 → 支払い（ケースとは別便）
+- [x] EasyEDA（Std版）にアカウント作成・ログイン
+- [x] Auto-KDKのzipをEasyEDAで開く → 3種の基板（left/right/panelized）を読み込み、プロジェクト「split-us60pct」として保存
+- [x] DRC実行 → **DRC Errors 0 / Nets 89/89** 確認（panelized）
+- [x] `Tool -> TearDrop` でティアドロップ付与（デフォルト設定）→ 保存
+- [x] panelized版で発注。Different Design=2、Panel by Customer、5枚
+- [x] PCB Assembly: Economic・Bottom side・5枚。ダイオード1N4148W=C81598（Basic）×320個のみ実装、Chocソケット（C5333465）は「配置しない」
+- [x] U1_L/U1_R警告はContinueでスキップ、配置確認で裏面ダイオードを目視確認
+- [x] 商品説明「Office Appliance and Accessories → Keyboard」→ 決済完了 **$56.26**（PCB $29.83 + PCBA $23.58 + 送料UPS $8.85 − クーポン$6。PCB prototype: Y3-12985604A）
+- [ ] 発注4〜6時間後にOrder Historyの**DFM Analysis**で最終配置を確認
+- [ ] JLCPCBからの確認メールが来たら対応（コンスルー穴は「そのまま製造」と回答）
 
 ## C. JLC3DP（ケース発注、README 4.10）
 
@@ -75,7 +74,7 @@ Auto-KDK README（4.8〜4.11）と調査結果に基づく発注手順。2026-07
 
 ## E. YUZU（キーキャップ、納期20〜30日）
 
-- [ ] **BのDRC通過（=レイアウト確定）後すぐ注文**（デザインは確定済み: yuzu-design.json / YUZUアカウントにSave済み。YUZUは納期20〜30日で全発注中最遅のため、早いほど完成が早まる。待つ理由は「DRCエラーでレイアウト変更→キーキャップ作り直し」の手戻り回避のみ）
+- [ ] **BのDRC通過済み（2026-07-16発注完了）なので即注文してよい**（デザインは確定済み: yuzu-design.json / YUZUアカウントにSave済み。YUZUは納期20〜30日で全発注中最遅のため、早いほど完成が早まる）
 - [ ] ADD TO CART → チェックアウト（$63.90＋送料）
 - [ ] 約1週間後に届く**製造確認写真を必ずチェック**（印字位置ミスが稀にある）
 
