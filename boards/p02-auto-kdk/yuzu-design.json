@@ -1176,9 +1176,10 @@
           "y": -0.5,
           "id": "uZbA",
           "colorId": "GR002",
-          "textSize": 5.8,
-          "textLabel": "tab",
-          "textFontId": 18
+          "textSize": 4.2,
+          "textLabel": "",
+          "textFontId": 18,
+          "hidden": true
         },
         {
           "x": -7,
@@ -1209,6 +1210,14 @@
           "textSize": 5.8,
           "textLabel": "",
           "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M277 418q-8 0-13.5-5t-5.5-13 5-14l48-48 70-64-45 1h-283q-8 0-13.5-5.5t-5.5-13.5 5.5-13.5 13.5-5.5h283l45 2-70-65-48-48q-5-6-5-14t5.5-13 13.5-5q7 0 13 6l143 142q6 5 6 12v-141q0-9 5.5-14t14-5 14 5 5.5 14v287q0 8-5.5 13t-14 5-14-5-5.5-13v-142q0 7-6 12l-143 143q-6 5-13 5z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 10778,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
         }
       ]
     },
@@ -1747,7 +1756,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 2.8,
-          "textLabel": "↑",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
@@ -1803,7 +1812,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 4.2,
-          "textLabel": "cmd",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
@@ -2252,7 +2261,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 4.2,
-          "textLabel": "cmd",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
@@ -2348,7 +2357,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 4.2,
-          "textLabel": "cmd",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
@@ -2401,7 +2410,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 4.2,
-          "textLabel": "cmd",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
@@ -2992,7 +3001,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 4.2,
-          "textLabel": "cmd",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
@@ -3045,7 +3054,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 4.2,
-          "textLabel": "cmd",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
@@ -3098,7 +3107,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 4.2,
-          "textLabel": "cmd",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
@@ -3241,7 +3250,7 @@
           "id": "uZbA",
           "colorId": "GR002",
           "textSize": 4.2,
-          "textLabel": "cmd",
+          "textLabel": "",
           "textFontId": 18,
           "hidden": true
         },
