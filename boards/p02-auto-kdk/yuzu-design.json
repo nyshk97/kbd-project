@@ -1,0 +1,3524 @@
+{
+  "keycapProfileId": "pff",
+  "printType": "dyesub",
+  "keyboard": "customlayout",
+  "language": null,
+  "name": "p02 auto-kdk",
+  "author": null,
+  "mods": [],
+  "extensions": [],
+  "layers": [],
+  "layoutKeys": [
+    {
+      "x": 0,
+      "y": 0.375,
+      "id": "EVN18",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 1,
+      "y": 0.375,
+      "id": "ORQXA",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 2,
+      "y": 0.375,
+      "id": "6QGCT",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 3,
+      "y": 0.375,
+      "id": "LFNES",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 4,
+      "y": 0.375,
+      "id": "Q7S3I",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 5,
+      "y": 0.375,
+      "id": "0T5YJ",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 9.75,
+      "y": 0.375,
+      "id": "2E44W",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 10.75,
+      "y": 0.375,
+      "id": "ARQ7I",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 11.75,
+      "y": 0.375,
+      "id": "6OQE9",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 12.75,
+      "y": 0.375,
+      "id": "R1RJI",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 13.75,
+      "y": 0.375,
+      "id": "VUSTN",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 14.75,
+      "y": 0.375,
+      "id": "DF4T9",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 15.75,
+      "y": 0.375,
+      "id": "JTE72",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 16.75,
+      "y": 0.375,
+      "id": "56LMY",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 17.75,
+      "y": 0.375,
+      "id": "8DGDU",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 1
+    },
+    {
+      "x": 0,
+      "y": 1.375,
+      "id": "5T52S",
+      "sizeId": "1.5u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 1.5,
+      "y": 1.375,
+      "id": "NUHXQ",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 2.5,
+      "y": 1.375,
+      "id": "A60CU",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 3.5,
+      "y": 1.375,
+      "id": "SVR9U",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 4.5,
+      "y": 1.375,
+      "id": "1ZNVE",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 5.5,
+      "y": 1.375,
+      "id": "ET9C7",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 10.25,
+      "y": 1.375,
+      "id": "I1E7U",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 11.25,
+      "y": 1.375,
+      "id": "UIFIL",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 12.25,
+      "y": 1.375,
+      "id": "FUMQJ",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 13.25,
+      "y": 1.375,
+      "id": "S2MIT",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 14.25,
+      "y": 1.375,
+      "id": "NET4J",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 15.25,
+      "y": 1.375,
+      "id": "FR6EM",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 16.25,
+      "y": 1.375,
+      "id": "GOH8V",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 17.25,
+      "y": 1.375,
+      "id": "5L3T3",
+      "sizeId": "1.5u",
+      "labelId": "space",
+      "rowNumber": 2
+    },
+    {
+      "x": 0,
+      "y": 2.375,
+      "id": "0KQ9P",
+      "sizeId": "1.75u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 1.75,
+      "y": 2.375,
+      "id": "EVBGI",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 2.75,
+      "y": 2.375,
+      "id": "EW9WB",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 3.75,
+      "y": 2.375,
+      "id": "FVFCV",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 4.75,
+      "y": 2.375,
+      "id": "GTOIQ",
+      "sizeId": "1uh",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 5.75,
+      "y": 2.375,
+      "id": "7Z3MR",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 10.5,
+      "y": 2.375,
+      "id": "ZX22E",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 11.5,
+      "y": 2.375,
+      "id": "ZLQA6",
+      "sizeId": "1uh",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 12.5,
+      "y": 2.375,
+      "id": "MT04S",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 13.5,
+      "y": 2.375,
+      "id": "15Q8S",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 14.5,
+      "y": 2.375,
+      "id": "BRRRO",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 15.5,
+      "y": 2.375,
+      "id": "XYG6K",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 16.5,
+      "y": 2.375,
+      "id": "V4H3E",
+      "sizeId": "2.25u",
+      "labelId": "space",
+      "rowNumber": 3
+    },
+    {
+      "x": 0,
+      "y": 3.375,
+      "id": "CLHWB",
+      "sizeId": "2.25u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 2.25,
+      "y": 3.375,
+      "id": "SDMIL",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 3.25,
+      "y": 3.375,
+      "id": "9CDSV",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 4.25,
+      "y": 3.375,
+      "id": "CJSDH",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 5.25,
+      "y": 3.375,
+      "id": "0RZJA",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 6.25,
+      "y": 3.375,
+      "id": "8SJHD",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 11,
+      "y": 3.375,
+      "id": "APMO6",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 12,
+      "y": 3.375,
+      "id": "PQGFL",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 13,
+      "y": 3.375,
+      "id": "NKWZH",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 14,
+      "y": 3.375,
+      "id": "79DDS",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 15,
+      "y": 3.375,
+      "id": "R8XO0",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 16.75,
+      "y": 3.375,
+      "id": "T4CN7",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 0,
+      "y": 4.375,
+      "id": "QSW54",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 1,
+      "y": 4.375,
+      "id": "REBZL",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 2,
+      "y": 4.375,
+      "id": "2V7GE",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 3,
+      "y": 4.375,
+      "id": "DF4VM",
+      "sizeId": "1.25u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 5.25,
+      "y": 4.375,
+      "id": "Y2IJ5",
+      "sizeId": "2u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 9.75,
+      "y": 4.375,
+      "id": "T99WD",
+      "sizeId": "2u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 13.625,
+      "y": 4.375,
+      "id": "OX3ET",
+      "sizeId": "1.25u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 15.75,
+      "y": 4.375,
+      "id": "IS9JQ",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 16.75,
+      "y": 4.375,
+      "id": "3RQIS",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    },
+    {
+      "x": 17.75,
+      "y": 4.375,
+      "id": "OH8K9",
+      "sizeId": "1u",
+      "labelId": "space",
+      "rowNumber": 4
+    }
+  ],
+  "keys": {
+    "EVN18": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "`",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "~",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "ORQXA": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "1",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "!",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "6QGCT": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "2",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "@",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "LFNES": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "3",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "#",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "Q7S3I": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "4",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "$",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "0T5YJ": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "5",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "%",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "2E44W": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "6",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "^",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "ARQ7I": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "7",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "&",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "6OQE9": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "8",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "*",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "R1RJI": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "9",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "(",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "VUSTN": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "0",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": ")",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "DF4T9": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "'",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "\"",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "JTE72": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "=",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "+",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "56LMY": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": ";",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": ":",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "8DGDU": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "\\",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "|",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "5T52S": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "tab",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "NUHXQ": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "Q",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "A60CU": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "W",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "SVR9U": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "E",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "1ZNVE": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "R",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "ET9C7": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "T",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "I1E7U": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "Y",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "UIFIL": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "U",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "FUMQJ": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "I",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "S2MIT": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "O",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "NET4J": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "P",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "FR6EM": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "[",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "{",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "GOH8V": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "]",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "}",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "5L3T3": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 2.8,
+          "textLabel": "↑",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M421 453h-186q-39 0-64-26l-127-131q-20-20-20-40t20-41l126-131q24-25 65-25h186q67 0 67 66v262q0 66-67 66zM420 419q34 0 34-34v-258q0-34-34-34h-186q-24 0-38 14l-125 130q-9 10-9 18.5t9 18.5l126 129q15 16 37 16h186zM367 344q-7 0-12-5l-60-60-60 60q-5 5-12 5t-11.5-5-4.5-12q0-6 5-11l60-60-60-60q-5-5-5-12t5-12 11-5q7 0 12 5l60 61 60-61q5-5 12-5 6 0 11 5t5 12-5 12l-60 60 60 60q5 5 5 11 0 7-4.5 12t-11.5 5z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11414,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "0KQ9P": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "cmd",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M76 327l166-170q6-6 14-6 9 0 14 6l166 170q6 6 6 14t-5.5 14-14.5 6q-7 0-13-6l-153-156-153 156q-6 6-13 6-9 0-14.5-6t-5.5-14 6-14z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 10713,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "EVBGI": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "A",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "EW9WB": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "S",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "FVFCV": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "D",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "GTOIQ": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "F",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "7Z3MR": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "G",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "ZX22E": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "H",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "ZLQA6": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "J",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "MT04S": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "K",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "15Q8S": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "L",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "BRRRO": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "cmd",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M176 453q-8 0-14-6l-126-124q-6-6-6-14t6-14l126-124q6-6 14-6 9 0 14 5.5t5 13.5-5 13l-62 60-40 35 50-2h273q33 0 33-33v-127q0-33-33-33h-120q-8 0-13.5-5.5t-5.5-13.5 5.5-13.5 13.5-5.5h120q38 0 54.5 17t16.5 54v127q0 36-17 53.5t-54 17.5h-273l-50-2 40 35 62 60q5 5 5 13t-5 13.5-14 5.5z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11055,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "XYG6K": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "-",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "_",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "V4H3E": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "cmd",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M383 270q1 14 4.5 27t8 21.5 12.5 16.5 12.5 12 12 8.5 8 5 4.5 1.5q-11 35-32 65-12 18-20 27.5t-21.5 19-28.5 9.5-36-9-39-9q-19 0-40.5 9t-34.5 10q-14 0-28-9.5t-22.5-20-21.5-28.5q-21-30-34-69t-13.5-83.5 18.5-77.5q15-26 40.5-41.5t54.5-15.5q16 0 42 10t33 10q6 0 36.5-11.5t50.5-9.5q54 2 84 45-4 2-6.5 4t-11.5 10.5-15 17.5-11.5 24-5.5 31v0zM326 100q28-34 24-73-17 1-36 11t-31 24q-30 34-25 71 39 3 68-33v0z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11909,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "CLHWB": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "cmd",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M190 455q-22 0-34-12t-12-34v-96h-87q-14 0-22.5-7.5t-8.5-19.5 12-25l192-191q13-13 26.5-13t25.5 13l192 191q12 12 12 25 0 12-8.5 19.5t-22.5 7.5h-87v96q0 22-12 34t-34 12h-132zM193 422h126q6 0 9.5-4t3.5-10v-120q0-7 7-7h99q3 0 3-2 0-1-1-3l-179-177q-3-3-5-3-3 0-4 3l-179 177q-2 2-2 3 0 2 3 2h99q7 0 7 7v120q0 14 13 14z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 10832,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "SDMIL": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "Z",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "9CDSV": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "X",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "CJSDH": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "C",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "0RZJA": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "V",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "8SJHD": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "B",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "APMO6": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "N",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "PQGFL": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5.8,
+          "textLabel": "M",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "NKWZH": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": ",",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "<",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "79DDS": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": ".",
+          "textFontId": 18
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": ">",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "R8XO0": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": 2.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 5,
+          "textLabel": "/",
+          "textFontId": 18,
+          "alignX": "right"
+        },
+        {
+          "y": 5.7,
+          "id": "CGCC",
+          "colorId": "GR005",
+          "textSize": 4,
+          "textLabel": "?",
+          "textFontId": 26,
+          "lockY": "top"
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "T4CN7": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 2.8,
+          "textLabel": "",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M426 405q0 12-8 19t-22 7h-280q-14 0-22-7t-8-19q0-7 8-25l133-275q12-24 29-24t29 24l133 275q8 17 8 25z",
+          "vectScale": 20,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11143,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "QSW54": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "esc",
+          "textFontId": 18
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "REBZL": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "cmd",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M190 344q-22 0-34-12t-12-34v-38h-81q-14 0-23-7.5t-9-19.5q0-13 15-26l184-162q14-13 26-13t27 13l183 162q15 13 15 26 0 12-9 19.5t-23 7.5h-81v38q0 22-12 34t-34 12h-132zM193 312h126q6 0 9.5-4t3.5-10v-63q0-7 8-7h93q2 0 2-1.5t-1-2.5l-174-151q-2-2-4-2t-5 2l-173 151q-1 1-1 2.5t2 1.5h94q7 0 7 7v63q0 14 13 14zM181 480q-39 0-39-38v-31q0-19 10-29t29-10h149q18 0 28 10t10 29v31q0 38-38 38h-149zM186 450h139q11 0 11-11v-25q0-12-11-12h-139q-12 0-12 12v25q0 11 12 11z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 10710,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "2V7GE": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "cmd",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M161 60q29 0 41 26l140 317q5 11 18 11h95q8 0 14 5.5t6 13.5-6 13.5-14 5.5h-105q-29 0-41-26l-141-317q-5-11-16-11h-94q-9 0-15-5.5t-6-13.5 6-13.5 15-5.5h103zM455 60q8 0 14 5t6 13.5-6 14-14 5.5h-139q-9 0-14.5-5.5t-5.5-13.5 5.5-13.5 14.5-5.5h139z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 10715,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "DF4VM": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "cmd",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M173 206h-43q-32 0-54-22t-22-53.5 22-54 54-22.5 54.5 22.5 22.5 53.5v43h98v-43q0-31 22.5-53.5t54.5-22.5 54 22.5 22 54-22 53.5-54 22h-43v100h43q32 0 54 22t22 54-22 54-54 22-54.5-22-22.5-54v-43h-98v43q0 32-22.5 54t-54.5 22-54-22-22-54 22-54 54-22h43v-100zM130 174h43v-44q0-17-12.5-30t-30.5-13-30.5 13-12.5 30.5 12.5 30.5 30.5 13zM382 174q18 0 30.5-13t12.5-30.5-12.5-30.5-30.5-13-30.5 13-12.5 30v44h43zM207 307h98v-101h-98v101zM130 338q-18 0-30.5 13t-12.5 30.5 12.5 30.5 30.5 13 30.5-13 12.5-30v-44h-43zM382 338h-43v44q0 17 12.5 30t30.5 13 30.5-13 12.5-30.5-12.5-30.5-30.5-13z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11545,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "Y2IJ5": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 7,
+          "y": -4.3,
+          "id": "uZbA",
+          "lockX": "left",
+          "colorId": "GR001",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": -4.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "T99WD": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 7,
+          "y": -4.3,
+          "id": "uZbA",
+          "lockX": "left",
+          "colorId": "GR001",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": -4.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        }
+      ]
+    },
+    "OX3ET": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 4.2,
+          "textLabel": "cmd",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M173 206h-43q-32 0-54-22t-22-53.5 22-54 54-22.5 54.5 22.5 22.5 53.5v43h98v-43q0-31 22.5-53.5t54.5-22.5 54 22.5 22 54-22 53.5-54 22h-43v100h43q32 0 54 22t22 54-22 54-54 22-54.5-22-22.5-54v-43h-98v43q0 32-22.5 54t-54.5 22-54-22-22-54 22-54 54-22h43v-100zM130 174h43v-44q0-17-12.5-30t-30.5-13-30.5 13-12.5 30.5 12.5 30.5 30.5 13zM382 174q18 0 30.5-13t12.5-30.5-12.5-30.5-30.5-13-30.5 13-12.5 30v44h43zM207 307h98v-101h-98v101zM130 338q-18 0-30.5 13t-12.5 30.5 12.5 30.5 30.5 13 30.5-13 12.5-30v-44h-43zM382 338h-43v44q0 17 12.5 30t30.5 13 30.5-13 12.5-30.5-12.5-30.5-30.5-13z",
+          "vectScale": 30,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11545,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "IS9JQ": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 2.8,
+          "textLabel": "",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M405 86q12 0 19 8t7 22v280q0 14-7 22t-19 8q-8 0-24-8l-276-133q-24-12-24-29t24-28l276-134q16-8 24-8z",
+          "vectScale": 20,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11119,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "3RQIS": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 2.8,
+          "textLabel": "",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M426 107q0 8-8 25l-133 275q-12 24-29 24t-29-24l-133-275q-8-17-8-25 0-12 8-19t22-7h280q14 0 22 7t8 19z",
+          "vectScale": 20,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11650,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    },
+    "OH8K9": {
+      "colorId": "GR001",
+      "layers": [
+        {
+          "x": 0,
+          "y": -0.5,
+          "id": "uZbA",
+          "colorId": "GR002",
+          "textSize": 2.8,
+          "textLabel": "",
+          "textFontId": 18,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": -0.3,
+          "id": "CGCC",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": -7,
+          "y": 1.9,
+          "id": "TW2F",
+          "lockX": "right",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "x": 7,
+          "y": 1.9,
+          "id": "XLTW",
+          "lockX": "left",
+          "colorId": "GR005",
+          "textSize": 5.8,
+          "textLabel": "",
+          "textFontId": 26,
+          "hidden": true
+        },
+        {
+          "colorId": "GR002",
+          "vectDef": "M107 426q-12 0-19-8t-7-22v-280q0-14 7-22t19-8q8 0 25 8l275 134q24 11 24 28t-24 29l-275 133q-17 8-25 8z",
+          "vectScale": 20,
+          "vectViewbox": "0 0 512 512",
+          "vectId": 11378,
+          "vectCollectionId": "5877cfe4-2472-4ecb-9571-4b1c7f4db0de"
+        }
+      ]
+    }
+  },
+  "keyTemplates": {
+    "EVN18": "cPpy",
+    "ORQXA": "cPpy",
+    "6QGCT": "cPpy",
+    "LFNES": "cPpy",
+    "Q7S3I": "cPpy",
+    "0T5YJ": "cPpy",
+    "2E44W": "cPpy",
+    "ARQ7I": "cPpy",
+    "6OQE9": "cPpy",
+    "R1RJI": "cPpy",
+    "VUSTN": "cPpy",
+    "DF4T9": "cPpy",
+    "JTE72": "cPpy",
+    "56LMY": "cPpy",
+    "8DGDU": "cPpy",
+    "5T52S": "cPpy",
+    "NUHXQ": "cPpy",
+    "A60CU": "cPpy",
+    "SVR9U": "cPpy",
+    "1ZNVE": "cPpy",
+    "ET9C7": "cPpy",
+    "I1E7U": "cPpy",
+    "UIFIL": "cPpy",
+    "FUMQJ": "cPpy",
+    "S2MIT": "cPpy",
+    "NET4J": "cPpy",
+    "FR6EM": "cPpy",
+    "GOH8V": "cPpy",
+    "5L3T3": "cPpy",
+    "0KQ9P": "cPpy",
+    "EVBGI": "cPpy",
+    "EW9WB": "cPpy",
+    "FVFCV": "cPpy",
+    "GTOIQ": "cPpy",
+    "7Z3MR": "cPpy",
+    "ZX22E": "cPpy",
+    "ZLQA6": "cPpy",
+    "MT04S": "cPpy",
+    "15Q8S": "cPpy",
+    "BRRRO": "cPpy",
+    "XYG6K": "cPpy",
+    "V4H3E": "cPpy",
+    "CLHWB": "cPpy",
+    "SDMIL": "cPpy",
+    "9CDSV": "cPpy",
+    "CJSDH": "cPpy",
+    "0RZJA": "cPpy",
+    "8SJHD": "cPpy",
+    "APMO6": "cPpy",
+    "PQGFL": "cPpy",
+    "NKWZH": "cPpy",
+    "79DDS": "cPpy",
+    "R8XO0": "cPpy",
+    "T4CN7": "cPpy",
+    "QSW54": "cPpy",
+    "REBZL": "cPpy",
+    "2V7GE": "cPpy",
+    "DF4VM": "cPpy",
+    "Y2IJ5": "cPpy",
+    "T99WD": "cPpy",
+    "OX3ET": "cPpy",
+    "IS9JQ": "cPpy",
+    "3RQIS": "cPpy",
+    "OH8K9": "cPpy"
+  },
+  "designUrl": "cherry-default"
+}
