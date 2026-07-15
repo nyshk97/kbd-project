@@ -31,7 +31,9 @@ Auto-KDK README（4.8〜4.11）と調査結果に基づく発注手順。2026-07
 - [x] 25mmトラックボール球（ブラック）¥1,600: https://booth.pm/ja/items/6457643 — **発注済み 2026-07-15 注文番号84437754**
 - [ ] セラミック支持球 φ2mm（必要3個、30個入り）: https://www.amazon.co.jp/dp/B0CCHYRSBY （uxcell ジルコニアZrO2 G10。極小なので紛失予備込みで安心）
 - [ ] FFCケーブル 0.5mmピッチ・6ピン・150mm・**Aタイプ（同一面）**×10本入り: https://www.amazon.co.jp/dp/B07SR945GV （uxcell。注文前に6ピン/0.5mm/Aタイプの3点を再確認。FFCは折れ断線しやすいので予備は有用）
-- [ ] 木工用ボンド・マスキングテープ・爪楊枝（手持ち確認）
+- [ ] 木工用ボンド: https://www.amazon.co.jp/dp/B0B8FZY9MC （コニシ 木工用多用途 50g）
+- [ ] マスキングテープ: https://www.amazon.co.jp/dp/B0BMP8XBN2 （3M 243J 12mm×10巻。100均品でも可）
+- [x] 爪楊枝: 手持ちあり
 
 ## B. JLCPCB（PCB発注、README 4.8〜4.9）
 
