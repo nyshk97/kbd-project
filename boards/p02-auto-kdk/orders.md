@@ -34,7 +34,7 @@ Auto-KDK README（4.8〜4.11）と調査結果に基づく発注手順。2026-07
 - [ ] 木工用ボンド: https://www.amazon.co.jp/dp/B0B8FZY9MC （コニシ 木工用多用途 50g）
 - [ ] マスキングテープ: https://www.amazon.co.jp/dp/B0BMP8XBN2 （3M 243J 12mm×10巻。100均品でも可）
 - [x] 爪楊枝: 手持ちあり
-- [ ] ビニールテープ（電工テープ・黒）: https://www.amazon.co.jp/dp/B01M9BXT63 （ニトムズNo.21 19mm×10m、JIS電気絶縁用。バッテリー固定用にREADMEが「不燃性のビニールテープ」を推奨。手持ちがあればそれでOK）
+- [ ] ビニールテープ（電気絶縁用・1巻）: https://www.amazon.co.jp/dp/B00OUX24WU （3M スコッチ117 19mm×10m。色はベージュだがケース内で見えないので不問。ダイソーなら3巻110円で最安。バッテリー固定用にREADMEが「不燃性のビニールテープ」を推奨）
 
 ## B. JLCPCB（PCB発注、README 4.8〜4.9）
 
