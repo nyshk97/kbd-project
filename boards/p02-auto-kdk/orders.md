@@ -61,12 +61,12 @@ Auto-KDK README（4.8〜4.11）と調査結果に基づく発注手順。2026-07
 - [ ] Choc V2 軸打ち比べ用サンプル 各3個程度:
   - **Islet（本命・43gf静音リニア）**: https://shop.yushakobo.jp/products/11937
   - Pink Island（35gf静音リニア）: https://shop.yushakobo.jp/products/10518
-  - Whale（45gf静音タクタイル）: https://shop.yushakobo.jp/products/10520
+  - [x] Whale（45gf静音タクタイル）5個: TALPKEYBOARDで発注済み 2026-07-15 確認番号K0ML8J8AC ¥750（遊舎工房はばら売り欠品のため）
   - Red（50gf非静音・基準器）: 遊舎工房で「Choc V2」検索（なければTALP/Amazon。省略可）
 - [ ] 打ち比べ後、確定した軸を本番用 64個＋予備で発注（設計はどの軸でも共通、キーキャップにも影響なし）
 - [ ] Kailh Switch Socket **Choc用**（CPG135001S30、10個入）×7袋: https://shop.yushakobo.jp/products/a01ps （MX用と間違えない）
 - ~~ダイオード 1N4148W~~ PCBAで工場実装するため購入不要
-- [ ] Li-Poバッテリー: **DTP502535(PHR) 400mAh × 2本**: https://eleshop.jp/shop/g/gH4H31G/ （届いたら極性チェック。要検討セクション参照）
+- [x] Li-Poバッテリー: **DTP502535(PHR) 400mAh × 2本**: 共立エレショップで発注済み 2026-07-15 オーダーID EC26071523011383（**届いたら極性チェック**。要検討セクション参照）
 - [ ] USB Type-Cケーブル 1本（書き込み・充電用）
 - [ ] ケース用滑り止め（ゴム足）
 
