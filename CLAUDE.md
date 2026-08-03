@@ -9,3 +9,13 @@
 - **JLC3DPのSLAレジン色**: LEDO 6060はNatural White一色のみ。黒が欲しい場合はJLC Black Resinが最安かつ高強度・高靭性（Black Resinは灰味の"Grayish Black"、Imagine Blackは外観検証向けで割高）
 - **注文フォームのProduct Desc / Product Descriptionは必須**（未選択だとSave/注文がエラー）。キーボード類は「Office Appliance and Accessories → (Plastic) Keyboard (Enclosure)」
 - 部品配置プレビューが枠外に飛んだらツールバーの画面フィットボタン（リロード不要、自動保存あり）。Top/Bottom切り替えで表が「No Data」なのは実装面違いを見ているだけ
+
+## Auto-KDK 組み立ての癖
+
+- **無線コントローラ2枚は左右鏡像の別部品**（同一品ではない）。BOOTH商品説明に「形状が対称な2種類」と明記。判別は裏面シルクの `AKDK-BT1-1` / `AKDK-BT1-2`。**どちらが左右かは生成PCBデータのフットプリント名が正**: 左手=`MS88SF2_1-1-3-SIDE2` / 右手=`MS88SF2_1-1-3-SIDE1`（`pcb/*-pcb.json` の LIB 要素をgrepする）。ブートローダの `INFO_UF2.TXT` の Board-ID は左右とも `auto-kdk-nrf52840-1` で**判別に使えない**
+- **コントローラはPCBのソケット実装面（bottom側）に載せる**。スイッチを挿す面ではない。公式 `img/wireless-controller-set.png` でソケットとダイオードが見える面に載っている
+- **ボード側のコンスルー穴はマトリクス4列×9行**（19/18/17/16mmのキーピッチに対応）。19mmピッチなら**一番外側（基板の縁に近い）の列**を使う。隣にあるマウスバイト（ミシン目）の半円跡と紛らわしいが、コンスルー穴は白いシルク枠の内側の完全な円
+- **生成される `config/keymap.keymap` は全キー `&none`**。動作確認の前にキーマップを書かないと、押しても何も入力されず「壊れている」と誤診する
+- **書き込みは電源スイッチOFFでUSB接続** → `NRF52BOOT` がマウント。`cp` は「could not copy extended attributes: Device not configured」で exit 1 を返すが、**ドライブがアンマウントされていれば成功**（READMEにも明記）
+- **ZMK起動後のUSBデバイス名で左右が分かる**: Central（トラックボール側）= `split_us60pct` / `ZMK Project`、Peripheral = `Generic CDC`。Peripheralが別名なのは `ZMK_KEYBOARD_NAME` が右手shieldにしか定義されていないため（HIDも出さずCDCのみ）
+- **リポのPHコネクタは極性が統一されていない**。挿す前に「USB-Cシェル（GND）とPHコネクタ端子の導通」でボード側の `−` を確定し、バッテリー側の赤線と突き合わせる。逆挿しはボード即死
